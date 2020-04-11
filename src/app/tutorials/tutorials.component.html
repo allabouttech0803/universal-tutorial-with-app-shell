@@ -1,0 +1,19 @@
+<div class="container pt-4">
+  <h1 class="jumbotron-heading text-center">Useful tutorials from Universal Tutorial</h1>
+  <div class="row pt-4">
+    <div class="col-md-4" *ngFor="let tutorial of universal_tutorials">
+      <div class="card mb-4 box-shadow">
+        <img class="card-img-top" src="{{ tutorial.imageUrl }}" alt="Card image cap" />
+        <div class="card-body">
+          <p class="card-text">{{ tutorial.title }}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="{{ tutorial.url }}" class="btn btn-primary" target="_window">Go to Tutorial</a>
+            </div>
+            <small class="text-muted">{{ tutorial.time_required }} mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
