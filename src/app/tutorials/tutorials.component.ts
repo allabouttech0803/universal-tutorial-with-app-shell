@@ -23,7 +23,7 @@ export class TutorialsComponent implements OnInit {
         "https://www.universal-tutorial.com/angular-tutorials/angular-typography",
       title: "Setup Typography using Angular Material",
       imageUrl:
-        "https://universal-tutorial.com/media/angular-tutorials/angular-typography/angular-typography-banner_w1800.png",
+        "https://universal-tutorial.com/media/angular-tutorials/angular-typography/angular-typography-banner.png",
       time_required: 9,
     },
     {
